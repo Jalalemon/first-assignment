@@ -21,8 +21,7 @@ font-family: 'Gulzar', serif;
     font-size: 16px;
     background-image: linear-gradient(red,tomato);
 }
-    h1 {
-
+#bold {
      font-size: 40px;
 }
 .bg-images {
@@ -35,4 +34,31 @@ font-family: 'Gulzar', serif;
 .bg-images img {
     width: 100%;
     margin: 0%;
+}
+.day {
+    text-align: center;
+     word-wrap: break-word;
+     font-weight: 700;
+}
+
+.list {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+ .flex-container div {
+    padding: 30px;
+    font-size: 20px;
+    border: 5px;
+    font-weight: 700;
+}
+#border {
+    border: 2px solid tomato;
+    background-color: burlywood;
+}
+.container {
+    opacity: 20%;
+    background-color: darkgray;
 }
