@@ -57,8 +57,40 @@ font-family: 'Gulzar', serif;
 #border {
     border: 2px solid tomato;
     background-color: burlywood;
+    color: tomato;
 }
 .container {
     opacity: 20%;
     background-color: darkgray;
+}
+.holder {
+text-align: center;
+padding: 30px;
+font-size: 40px;
+font-weight: 700;
+}
+#center {
+    text-align: center;
+}
+.survay {
+    display: flex;
+    width: 100%;
+}
+.icon {
+    background-color: darkgray;
+    padding: 3%;
+    width: 25%;
+    margin: 2%;
+}
+.shelter {
+    background-color: antiquewhite;
+    padding: 3%;
+        width: 25%;
+        margin: 2%;
+}
+.education {
+    background-color: burlywood;
+    padding: 3%;
+        width: 25%;
+        margin: 2%;
 }
